@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Kazi Mashinani</title>
+</head>
+<body>
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <img src="./assests/images/logo.jpg" alt="Logo" class="h-8 w-8 mr-2 rounded-bl-2xl">
+                            <span class="font-semibold text-gray-500 text-lg">Kazi Mashinani</span>
+                        </a>
+                    </div>
+                    <!-- primary items -->
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">Home</a>
+				    	<a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Services</a>
+				    	<a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About</a>
+				    	<a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact Us</a>
+                    </div>                 
+                </div>
+                <!-- secondary items -->
+                <div class="hidden md:flex items-center space-x-3 ">
+                    <a href="" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Hire Workers</a>
+                    <a href="" class="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">Enlist as Worker</a>
+                </div>                
+            </div>
+            
+            <!-- Mobile menu button -->
+            <div class="md:hidden flex items-center">
+                <button class="outline-none mobile-menu-button">
+                <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
+                    x-show="!showMenu"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            </div>
+        </div>
+        <!-- mobile menu -->
+		<div class="hidden mobile-menu">
+			<ul class="">
+				<li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
+				<li><a href="#services" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a></li>
+				<li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
+				<li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a></li>
+			</ul>
+		</div>
+		<script>
+			const btn = document.querySelector("button.mobile-menu-button");
+			const menu = document.querySelector(".mobile-menu");
+			btn.addEventListener("click", () => {
+				menu.classList.toggle("hidden");
+			});
+		</script>
+    </nav>
+    <section>
+        <div class="mx-4 my-4">
+            <h3 class="text-4xl font-extrabold text-gray-600">About us</h3>
+            <p class="mb-4 text-xl font-normal text-gray-900">
+                Kazi mashinani is a unifying platform that allows access to verified and skilled labour both in formal and informal sectors in city or rural neighbourhoods.
+                Here, one is able to book and access labourers for their services as well as businesses for goods.
+                This cumulative endavour enables eradication of joblesness and easy access to professionals thus stremlining life for all players.
+            </p>
+            <a href="#" class="inline-flex items-center text-lg text-blue-600 hover:underline">
+                Read more
+                <svg class="ml-1 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+            </a>
+            <figure class="mx-auto max-w-screen-md text-center">
+                <div class="inline-flex justify-center items-center w-full">
+                    <hr class="my-8 w-64 h-1 bg-gray-700 rounded border-0">
+                    <div class="absolute left-1/2 px-4 -translate-x-1/2 bg-white">
+                        <svg aria-hidden="true" class="w-5 h-5 text-gray-700" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
+                    </div>
+                </div>
+                <blockquote>
+                    <p class="text-2xl italic font-medium text-gray-500">"Through this programme, I have been able to offer more services with each passing day, thus feeding my family every day"</p>
+                </blockquote>
+                <figcaption class="flex justify-center items-center mt-6 space-x-3">
+                    <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+                    <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                        <cite class="pr-3 font-medium text-gray-900">Stella Mbao</cite>
+                        <cite class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Laundry and cleaning</cite>
+                    </div>
+                </figcaption>
+            </figure>
+
+        </div>
+    </section>
+    <section>
+        <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+            <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar">
+                </a>
+                <div class="p-5">
+                    <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Stella Mbao</a>
+                    </h3>
+                    <span class="text-gray-500 dark:text-gray-400">Laundry and Care Giver</span>
+                    <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Passionate and a perfectionist</p>
+                    <ul class="flex space-x-4 sm:mt-0">
+                        <li>
+                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376" /></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar">
+                </a>
+                <div class="p-5">
+                    <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Stella Mbao</a>
+                    </h3>
+                    <span class="text-gray-500 dark:text-gray-400">Laundry and Care Giver</span>
+                    <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Passionate and a perfectionist</p>
+                    <ul class="flex space-x-4 sm:mt-0">
+                        <li>
+                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376" /></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="#" class="flex items-center mb-4 sm:mb-0">
+                <img src="./assests/images/logo.jpg" class="mr-3 h-8" alt="logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Kazi Mashinani</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-200">
+                <li><a href="#" class="mr-4 hover:underline md:mr-6 ">About</a></li>
+                <li><a href="#" class="mr-4 hover:underline md:mr-6 ">Privacy Policy</a></li>
+                <li><a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a></li>
+                <li><a href="#" class="mr-4 hover:underline md:mr-6 ">Contact</a></li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-600 lg:my-8" />
+        <span class="block text-sm text-gray-200 sm:text-center">© 2022 <a href="#" class="hover:underline">Kazi Mashinani</a>. All Rights Reserved.
+        </span>
+    </footer>    
+    <script src="./index.js"></script>
+</body>
+</html>
