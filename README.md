@@ -2,6 +2,7 @@
 ## Kazi Mashinani
 
 *Author - Steve Austin*
+*12th Dec 2022*
 
 ### Introduction
 
@@ -31,19 +32,24 @@ In order to run in in developers mode, ensure to have procede to:
 1. Install TailwindCSS 
     `npm install -D tailwindcss`
 1. Run the index.html file using live-server
-1. Checkout the feature by accessing the development from the local host
+1. Checkout app features by accessing the development version from the local host as run in your browser.
 
 Alternatively, you can interact with application via this [live-deployed-link]()
 
 ### Bugs and Known Issues
 * none at the moment
+* should they occur,
+* list them here
 
 ### Develper contact
+
 [phone]() •  [email]() •  [GitHub]()
 
 ---
 
 This project is licensed under the [MIT License](https://github.com/)
 
-Copyright ©2022 Steve Austin
+---
+
+#### Copyright *©2022 Steve Austin*
 
