@@ -67,7 +67,7 @@ function handleSubmitForm(){
 // creates/POST a worker in the database
 function createUser(userData){
     console.log('hmm')
-    fetch("http://localhost:3000/workers", {
+    fetch("https://test-backend-production-30ff.up.railway.app/workers", {
     method: "POST",
     headers: {
       "Content-type": "application/json",

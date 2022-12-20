@@ -5,7 +5,7 @@ hireWorkers.addEventListener("click", fetchWorkers)
 
 
 function fetchWorkers() {
-  fetch("http://localhost:3000/workers")
+  fetch("https://test-backend-production-30ff.up.railway.app/workers")
     .then((response) => response.json())
     .then(iterateWorkers);
 
