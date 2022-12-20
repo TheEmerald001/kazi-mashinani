@@ -11,6 +11,9 @@
     box-sizing: border-box;
     padding: 20px;
 }
+.imagestyl{
+  width: 50px;
+}
 .title {
   color: #eee;
   text-align: center;
