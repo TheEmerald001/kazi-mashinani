@@ -7,7 +7,7 @@
       "password": "nK3GA3qS9FYxzRi",
       "phone": "25471266455",
       "image": "https://images.pexels.com/photos/11850478/pexels-photo-11850478.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "description": "hardwworking and quite experienced",
+      "description": "I am a proffessional and trustworthy person and deliver timely.",
       "id": 1
     },
     {
@@ -17,18 +17,8 @@
       "password": "nK3GA3qS9FYxzRi",
       "phone": "254712666455",
       "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
-      "description": "hardwworking",
+      "description": "I am devoted and love cooking in events.",
       "id": 2
-    },
-    {
-      "name": "Mikki Awino",
-      "job": "Mjei",
-      "email": "awino@gmail.com",
-      "password": "nK3GA3qS9FYxzRi",
-      "phone": "254716831819",
-      "image": "https://images.pexels.com/photos/596792/pexels-photo-596792.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "description": "Afluent and kind",
-      "id": 3
     }
   ]
 }

@@ -12,7 +12,8 @@
     padding: 20px;
 }
 .imagestyl{
-  width: 50px;
+  width: 50%;
+  padding: 10px;
 }
 .title {
   color: #eee;
